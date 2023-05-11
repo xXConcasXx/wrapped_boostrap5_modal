@@ -130,5 +130,5 @@ class WrappedModal {
 }
 
 function isNullUndefinedOrEmpty(object) {
-	return object === null || object === undefined || object === '';
+  return object === null || object === undefined || object === '';
 }
