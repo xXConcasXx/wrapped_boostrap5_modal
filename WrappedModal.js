@@ -128,3 +128,7 @@ class WrappedModal {
     new bootstrap.Modal(document.getElementById(this.id)).toggle();
   }
 }
+
+function isNullUndefinedOrEmpty(object) {
+	return object === null || object === undefined || object === '';
+}
