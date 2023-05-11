@@ -1,3 +1,5 @@
+//AUTHOR: xXConcasXx
+
 class WrappedModal {
   constructor(id, title, body, options, buttons) {
     this.id = id;
