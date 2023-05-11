@@ -42,7 +42,7 @@ For the moment this is a basic class, in the future I will implement more featur
 ```javascript
 const modalId = 'example-modal';
 const modalTitle = 'Modal Example Title';
-const modalBody = '<h3>This is the body</h3><p>This is the description</p>';
+const modalBody = '<h5>This is the body</h5><p>This is the description</p>';
 const modalOptions = {
   fade: true,
   shadow: true,
@@ -59,7 +59,7 @@ const modalButtons = [
       alert('Button 2 triggered');
     }
   },
-  { text: 'btn3', dismiss: true, class: 'btn btn-success'}
+  { text: 'Button 3', dismiss: true, class: 'btn btn-success'}
 ];
 
 new WrappedModal(
@@ -70,3 +70,5 @@ new WrappedModal(
   modalButtons
 ).show();
 ```
+## Demo
+[Click here to open codepen.io](https://codepen.io/luca-concas/pen/KKGeKmd)
